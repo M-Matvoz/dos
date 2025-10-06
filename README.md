@@ -1,49 +1,32 @@
-# MATLAB Project README
+# DOS Matlab repo
 
-## Project Title
-
-Brief description of what the MATLAB code does.
+Repo za vaje la DOS
 
 ## Requirements
 
 - MATLAB R20XXa or newer
-- Any required toolboxes (e.g., Signal Processing Toolbox)
 
-## Installation
+## Initialization
 
 Clone the repository and navigate to the project folder:
 
 ```bash
-git clone https://github.com/yourusername/your-matlab-project.git
-cd your-matlab-project
+git clone https://github.com/M-Matvoz/dos.git
+cd dos
 ```
 
 ## Usage
 
-Run the main script in MATLAB:
-
-```matlab
-main_script.m
+```bash
+cd $folder
 ```
 
-## File Structure
-
-- `main_script.m` - Entry point for the project
-- `functions/` - Custom MATLAB functions
-- `data/` - Sample input data
-
+```matlab
+call_functions_here
+```
 ## Example
 
 ```matlab
-result = main_script();
-disp(result);
+cd vaja1
+fnGenerateSinus(20)
 ```
-
-## License
-
-Specify your license here (e.g., MIT License).
-
-## Author
-
-Your Name  
-your.email@example.com
