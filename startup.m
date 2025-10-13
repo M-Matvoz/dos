@@ -1,1 +1,0 @@
-addpath("/media/mmatvoz/GigaNigga/FE/3_LETNIK/DOS")
