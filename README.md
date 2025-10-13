@@ -15,10 +15,18 @@ git clone https://github.com/M-Matvoz/dos.git
 cd dos
 ```
 
+Here, you have to add your own startup file to add all the folders to your environment.
+
+```matlab
+addpath("path/to/parent/folder/DOS/vaja0")
+```
+
+Add all vajaN directories, along with the DOS directory
+
 ## Usage
 
 ```bash
-cd $folder
+startup
 ```
 
 ```matlab
@@ -27,6 +35,6 @@ call_functions_here
 ## Example
 
 ```matlab
-cd vaja1
+cd vaja0
 fnGenerateSinus(20)
 ```
