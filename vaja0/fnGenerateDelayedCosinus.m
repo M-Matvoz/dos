@@ -8,5 +8,5 @@ if delay >= N
 end
 y = zeros(1, N); % inicializacija izhodnega signala
 for n = 1:N
-    y(n) = cos(2 * pi * (n - delay) / N); % generiranje kosinusnega signala z zamikom
+    y(n) = cos(2 * pi * (n - 1 - delay) / N); % generiranje kosinusnega signala z zamikom
 end
