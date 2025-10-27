@@ -25,16 +25,20 @@ Add all vajaN directories, along with the DOS directory
 
 ## Usage
 
+To include all relevant paths, always run your own *startup.m* file to include all relevant libraries. To do so, run the following in the matlab CLI:
+
 ```bash
 startup
 ```
 
-```matlab
-call_functions_here
-```
+I recommend you execute the functions via *main.m* file, as is common pracice in other languages (e.g. C/C++ or Java). There, you can write all of your code, as you need it, and then execute it.
+
 ## Example
 
+To run just a function in the CLI, call it as such:
+
 ```matlab
-cd vaja0
 fnGenerateSinus(20)
 ```
+
+This will execute the function and all the calls within it
