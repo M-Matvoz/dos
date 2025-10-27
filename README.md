@@ -1,6 +1,6 @@
 # DOS Matlab repo
 
-Repo za vaje la DOS
+Repo za vaje za DOS (**D**igitalna **O**bdelava **S**ignalov)
 
 ## Requirements
 
