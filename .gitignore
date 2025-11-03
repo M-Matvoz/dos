@@ -1,2 +1,4 @@
 startup.m
 main.m
+*.png
+*.fig
