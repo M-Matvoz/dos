@@ -15,6 +15,7 @@ if bitplot == 1
     k = 0:N-1;
     figure;
     stem(k, Ax, '.');
+    title('Amplitudni spekter', 'interpreter', 'latex', 'FontSize', 14);
     xlabel('$k$','interpreter','latex', 'FontSize', 14); % oznaka x-osi
     ylabel('$A_x[k]$','interpreter','latex', 'FontSize', 14); % oznaka y-osi
 end
